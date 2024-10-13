@@ -1,0 +1,866 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+
+    width: 100%;
+    height: auto;
+    padding: 20px 50px;
+}
+
+.navbar {
+    padding: 2px;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.271);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div:nth-child(1) {
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 15%;
+        justify-content: center;
+
+        .logo {
+            width: 60px;
+        }
+
+        h1 {
+            font-size: 25px;
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+        }
+    }
+
+
+    ul {
+        display: flex;
+        align-items: center;
+        margin-left: 22%;
+        justify-content: space-between;
+        list-style: none;
+        width: 25%;
+    }
+
+    ul li a {
+        text-decoration: none;
+    }
+
+    li a {
+        font-family: "Comfortaa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14px;
+        color: rgb(123, 123, 123);
+    }
+
+    li a:hover {
+        color: black;
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .dropdown {
+        margin-left: 26%;
+        border: none;
+        width: 10%;
+        display: flex;
+        background-color: ;
+        align-items: center;
+        justify-content: end;
+
+        select {
+            background-color: green;
+            color: white;
+            border-radius: 6px;
+            padding: 7px;
+            font-size: 12px;
+            border: none;
+        }
+
+        select:hover {
+            background-color: rgb(4, 155, 4);
+            cursor: pointer;
+            font-size: 13px;
+            border: none;
+        }
+    }
+
+    .menu-icon {
+        width: 30px;
+        margin-left: 10px;
+    }
+
+
+}
+
+/* Navbar Ends Here */
+
+.hero-section {
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.482);
+
+}
+
+.left-part {
+    width: 35%;
+
+
+    h1 {
+        font-size: 80px;
+        margin-top: 20px;
+
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+
+
+        em {
+            font-style: normal;
+            color: green;
+        }
+    }
+
+    .caring {
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    button {
+        background-color: rgb(34, 34, 34);
+        border: none;
+        color: white;
+        border-radius: 8px;
+        margin-top: 30px;
+        padding: 12px 22px;
+    }
+
+    button:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+
+
+    .watering {
+        background-color: white;
+        margin-top: 90px;
+        width: 50%;
+        border-radius: 10px;
+        height: 140px;
+        position: relative;
+        background-image: url(./watering\ plant.jpg);
+        background-position: center;
+        background-size: cover;
+
+        img {
+            width: 50px;
+            position: absolute;
+            z-index: ;
+            top: -5%;
+            right: -5%;
+            border: 6px solid white;
+            border-radius: 50%;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+
+        p {
+            color: rgb(0, 0, 0);
+            font-family: "Quicksand", sans-serif;
+            position: absolute;
+            font-size: 16px;
+            top: 25%;
+            right: -55%;
+            font-weight: 500;
+        }
+    }
+
+
+
+
+}
+
+.spray-plant {
+    background-color: white;
+    height: auto;
+    margin-left: 10%;
+    border-radius: 12px;
+
+    width: 30%;
+    background-image: url(./spray.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.right-part {
+
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    h6 {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 300;
+        justify-content: end;
+        font-family: "Quicksand", sans-serif;
+        margin-top: 50px;
+
+        em {
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
+
+    a {
+        display: flex;
+        font-family: "Quicksand", sans-serif;
+        align-items: center;
+        font-size: 16px;
+        color: black;
+        margin-top: 10px;
+        justify-content: end;
+
+
+    }
+
+    .profile-card {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        border-radius: 10px;
+        background-color: rgb(233, 233, 233);
+        position: relative;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        padding-top: ;
+        padding: 10px;
+
+        div {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        div profile:nth-child(1) {
+
+            background-image: url(./1.jpg);
+            background-position: center;
+            background-size: cover;
+            z-index: 0;
+            position: absolute;
+            top: 1%;
+            left: 15%;
+            width: 70px;
+            height: 70px;
+
+        }
+
+        div profile:nth-child(2) {
+
+            background-image: url(./2.jpg);
+            background-position: center;
+            background-size: cover;
+            z-index: 1;
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: 1%;
+            left: 30%;
+        }
+
+        div profile:nth-child(3) {
+
+            z-index: 2;
+            position: absolute;
+            background-image: url(./3.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 70px;
+            left: 45%;
+            top: 1%;
+            height: 70px;
+        }
+
+
+
+
+
+        h5 {
+            font-size: 24px;
+            margin-top: 20px;
+            font-family: "Quicksand", sans-serif;
+        }
+
+        p {
+            font-size: 17px;
+            margin-top: 5px;
+            font-family: "Quicksand", sans-serif;
+            color: rgb(58, 58, 58);
+        }
+
+        profile {
+
+            border: 4px solid white;
+            border-radius: 50%;
+
+        }
+    }
+
+
+
+}
+
+.creeper {
+    position: absolute;
+    right: -2%;
+    rotate: 25deg;
+    top: 40%;
+}
+
+
+/* here-section-first ends here */
+
+
+
+/* Hero-Section-Two starts Here */
+
+
+
+.hero-section-two {
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    height: auto;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.482);
+
+
+}
+
+.left-section {
+    width: 42%;
+
+}
+
+.left-section h1 {
+    font-size: 60px;
+    width: 80%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+
+.video-section {
+    margin-top: 100px;
+
+    video {
+
+        width: 100%;
+        border-radius: 12px;
+        height: auto;
+    }
+}
+
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+
+    width: 50%;
+    overflow: hidden;
+
+    h4 {
+        margin-top: 40px;
+        width: 100%;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+    }
+
+    .bottom {
+        display: flex;
+        margin-top: 75px;
+
+
+        .bottom-left {
+            background-color: #517B4C;
+            width: 44%;
+            height: 320px;
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+            border-radius: 10px;
+
+
+            h3 {
+                font-size: 70px;
+                font-weight: 300;
+                color: white;
+                margin-top: 10px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            p {
+                font-size: 12px;
+                margin-top: 40px;
+                color: white;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .link {
+                margin-top: 60px;
+                display: flex;
+                width: 60%;
+                justify-content: space-between;
+                align-items: center;
+
+                a {
+                    color: white;
+                    font-size: 14px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+
+                button {
+                    border-radius: 50%;
+                    width: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 3px;
+                    font-size: 15px;
+                    height: 30px;
+                    border: none;
+                }
+
+            }
+
+        }
+
+        .bottom-right {
+            width: 60%;
+            display: flex;
+            padding-left: 40px;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+
+            p {
+                font-size: 12px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            button {
+                background-color: rgb(34, 34, 34);
+                border: none;
+                color: white;
+                border-radius: 8px;
+                margin-top: 30px;
+                padding: 12px 22px;
+            }
+        }
+    }
+
+}
+
+/* hero-section-two ends here */
+
+/* her0-section-third starts here */
+
+.hero-section-third {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        width: 100%;
+        align-items: center;
+        font-size: 50px;
+        justify-content: center;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 30px;
+    }
+
+    .card-section {
+        width: 100%;
+        padding: 0 30px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+    }
+
+    .card-section h5 {
+        background-color: white;
+        width: fit-content;
+        text-align: center;
+        padding: 9px 16px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        position: absolute;
+        right: 4%;
+        top: 5%;
+
+    }
+
+    .card-section div:nth-child(1) {
+        background-color: yellow;
+        width: 500px;
+        height: 330px;
+        margin-top: 20px;
+        border-radius: 12px;
+        background-image: url(./plant\ care.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+
+
+    }
+
+    .card-section div:nth-child(2) {
+        background-color: yellow;
+        width: 410px;
+        height: 360px;
+        margin-top: 150px;
+        border-radius: 12px;
+        background-image: url(./Sygma-Inner9.png);
+        background-position: center;
+        background-size: 125%;
+        position: relative;
+    }
+
+    .card-section div:nth-child(3) {
+        background-color: yellow;
+        width: 350px;
+        position: relative;
+        background-image: url(./images.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+        border-radius: 12px;
+    }
+
+    .card-section button {
+        display: flex;
+        align-items: center;
+        width: 120px;
+        border: none;
+        padding: 4px;
+        border-radius: 20px;
+        background-color: rgb(74, 57, 57);
+        justify-content: space-around;
+        position: absolute;
+        bottom: 3%;
+        left: 5%;
+    }
+
+    .card-section button a {
+        color: white;
+    }
+
+    .card-section button img {
+        width: 23px;
+        border-radius: 50%;
+        border: 2px solid rgba(255, 255, 255, 0.959);
+    }
+
+    .product-review-section {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        margin-top: 100px;
+
+        .tools-img {
+            background-image: url(./flat-lay-gardening-tools-plants-frame-with-copy-space_1235831-320393.jpg);
+            width: 600px;
+            height: 400px;
+            border-radius: 20px;
+            margin-top: 30px;
+            background-position: center;
+            background-size: 100%;
+            margin-right: 100px;
+
+        }
+
+        div:nth-child(2) {
+            width: 50%;
+            height: 300px;
+            margin-top: 20px;
+
+            h2 {
+
+                width: 80%;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                font-size: 60px;
+                display: inline;
+                align-items: start;
+            }
+
+            p {
+                font-size: 16px;
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                margin-top: 30px;
+            }
+
+            button {
+                background-color: rgb(34, 34, 34);
+                border: none;
+                color: white;
+                border-radius: 8px;
+                margin-top: 50px;
+                padding: 12px 22px;
+
+            }
+        }
+    }
+}
+
+/* hero section third ends here */
+/* hero section fourth starts here */
+
+.hero-section-fourth {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background-color: #517B4C;
+    width: 100%;
+    padding: 30px;
+    background-image: url(./farmer.jpg);
+    background-position: right 10% top;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 60px;
+        color: white;
+        margin-top: 60px;
+    }
+
+    p {
+        color: white;
+        margin-top: 40px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+    }
+
+    button {
+        background-color: rgb(34, 34, 34);
+        border: none;
+        color: white;
+        border-radius: 8px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 12px 22px;
+
+    }
+
+}
+
+
+/* hero-section-fourth ends */
+/* footer-section starts here */
+
+.footer {
+
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+    .left-section {
+        width: 30%;
+
+
+        h6 {
+            font-size: 25px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            margin-top: 30px;
+            color: grey;
+            font-style: normal;
+        }
+
+        .email {
+            width: 90%;
+            background-color: rgb(234, 234, 234);
+
+            padding: 2px 0px;
+            padding-left: 10px;
+            padding-right: 2px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+
+
+            input {
+                border: none;
+                background-color: rgb(234, 234, 234)
+            }
+
+            button {
+                width: 30%;
+                border: none;
+
+                border-radius: 8px;
+                height: 30px;
+                background-color: #517B4C;
+            }
+
+
+        }
+
+        ul {
+            display: flex;
+            width: 40%;
+            margin-top: 100px;
+            justify-content: space-between;
+            list-style: none;
+
+            img {
+                width: 25px;
+
+                padding: 3px;
+
+            }
+        }
+    }
+
+    .mid-section {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+
+
+        div:nth-child(1) {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            img {
+                width: 80px;
+
+            }
+
+            h1 {
+                font-size: 30px;
+                color: rgb(73, 73, 73);
+                font-family: "Montserrat Alternates", sans-serif;
+                font-weight: 500;
+            }
+        }
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        margin-top: 40px;
+        line-height: 20px;
+        color: grey;
+        font-style: normal;
+    }
+
+}
+
+.right-section-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 30%;
+    padding: 20px;
+
+
+
+    ul {
+        list-style-type: none;
+
+
+        h6 {
+            font-size: 18px;
+            font-style: normal;
+            font-family: "Roboto", sans-serif;
+        }
+
+    }
+
+    li {
+        font-size: 16px;
+        margin-top: 15px;
+        font-style: normal;
+        color: grey;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+}
